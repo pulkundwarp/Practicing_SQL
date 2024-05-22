@@ -1,5 +1,5 @@
 # <p align = 'center'>SQL-Practice-Questions</p>
- This repository contains solutions for various SQL questions types I've solved to practice
+ This repository contains solutions for various question I've solved to practice SQL querying
 
 ## Basics Explained - SQL NOTES:
 
