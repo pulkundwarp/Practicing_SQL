@@ -99,7 +99,6 @@
 #### **HAVING**: this clause was added to SQL because the WHERE keyword could not be used with aggregate functions
 * `SELECT` `COUNT`(column_name1), column_name2 `FROM` table `GROUP BY` column_name2 `HAVING` `COUNT(`column_name1`)` > 5;
 
-[back to current section](#sql)
 
 ### Data Modification Queries
 
@@ -115,7 +114,6 @@
 * `DELETE FROM` table_name `WHERE` condition;
 * `DELETE` * `FROM` table_name;
 
-[back to current section](#sql)
 
 ### Reporting Queries
 
@@ -132,7 +130,6 @@
 #### **SUM()**: returns the total sum of a numeric column
 * `SELECT SUM (`column_name`) FROM` table_name `WHERE` condition;
 
-[back to current section](#sql)
 
 ### Join Queries
 
@@ -152,7 +149,6 @@
 #### **Self JOIN**: a regular join, but the table is joined with itself
 * `SELECT` column_names `FROM` table1 T1, table1 T2 `WHERE` condition;
 
-[back to current section](#sql)
 
 ### View Queries
 
@@ -162,7 +158,6 @@
 #### **DROP**: drop a view
 * `DROP VIEW` view_name;
 
-[back to current section](#sql)
 
 ### Altering Table Queries
 
@@ -175,7 +170,6 @@
 #### **DROP**: delete a column
 * `ALTER TABLE` table_name `DROP COLUMN` column_name;
 
-[back to current section](#sql)
 
 ### Creating Table Query
 
